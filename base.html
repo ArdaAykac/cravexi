@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cravexi - Dijital Çözümler</title>
+<meta name="description" content="Cravexi ile dijital dünyada öne çıkın. Kod ile oluşturuldu, Topluluk ile geliştirildi. Hakkımızda, hizmetlerimiz ve uygulamalarımız hakkında bilgi alın.">
+<meta name="keywords" content="Cravexi, cravexi, yazılım, dijital çözümler, uygulama, hizmetler, iletişim, oyun geliştirme, kripto, web, masaüstü">
+<meta name="author" content="Arda Aykaç">
+<meta name="robots" content="index, follow">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+<link rel="shortcut icon" href="images/favicon.png" type="image/png">
+
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body, html { height:100%; font-family:'Arial', sans-serif; background-color:#000; color:#fff; scroll-behavior:smooth; }
+
+/* Header */
+header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+    background-color: rgba(0,0,0,0.8);
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:100;
+}
+.logo {
+    font-size:28px;
+    font-weight:bold;
+    background: linear-gradient(45deg, #ff9900, #ffcc00);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+nav a {
+    color:#fff;
+    text-decoration:none;
+    margin-left:30px;
+    font-weight:500;
+    transition:color 0.3s;
+}
+nav a:hover { color:#ff9900; }
+
+/* Hero */
+.hero {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    height:100vh;
+    background: linear-gradient(120deg,#111,#000);
+    padding-top:80px;
+}
+.hero h1 {
+    font-size:48px;
+    background: linear-gradient(45deg,#ff9900,#ffcc00);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin-bottom:20px;
+}
+.hero p {
+    font-size:24px;
+    margin-bottom:40px;
+    opacity:0.85;
+}
+.hero a.cta {
+    padding:15px 30px;
+    background: linear-gradient(45deg,#ff9900,#ffcc00);
+    color:#000;
+    font-weight:bold;
+    text-decoration:none;
+    border-radius:30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.hero a.cta:hover {
+    transform:scale(1.05);
+    box-shadow:0 0 15px #ff9900;
+}
+
+/* Ortaklar */
+#ortaklar {
+    padding:80px 20px;
+    text-align:center;
+    background-color:#111;
+}
+#ortaklar h2 {
+    font-size:36px;
+    margin-bottom:50px;
+    background: linear-gradient(45deg,#ff9900,#ffcc00);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+#ortaklar .ortak-list {
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    font-size:20px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+    header { flex-direction:column; padding:15px 20px; }
+    nav { margin-top:10px; }
+    nav a { margin:0 10px; }
+    .hero h1 { font-size:32px; }
+    .hero p { font-size:18px; }
+    .hero a.cta { padding:12px 25px; }
+    #ortaklar h2 { font-size:28px; }
+    #ortaklar .ortak-list { font-size:18px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">Cravexi</div>
+<nav>
+<a href="hakkimizda.html">Hakkımızda</a>
+<a href="hizmetler.html">Hizmetler</a>
+<a href="uygulama.html">Uygulama</a>
+<a href="iletisim.html">İletişim</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Cravexi</h1>
+<p>Crafted By Code, Powered By Community</p>
+<a href="hakkimizda.html" class="cta">Hakkımızda'yı Keşfedin</a>
+</section>
+
+<section id="ortaklar">
+<h2>Ortaklarımız</h2>
+<div class="ortak-list">
+<div>Kurucu: Arda Aykaç</div>
+<div>Ortak: Görkem İbiş</div>
+</div>
+</section>
+
+</body>
+</html>
