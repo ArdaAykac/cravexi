@@ -1,128 +1,320 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hakkımızda - Cravexi</title>
-<meta name="description" content="Cravexi, 14 Aralık 2024'te Arda Aykaç tarafından kurulan bir yazılım stüdyosudur. Oyun geliştirme, kripto, web ve masaüstü çözümleri sunar.">
-<meta name="keywords" content="Cravexi, yazılım, dijital çözümler, oyun, kripto, web, masaüstü">
-<meta name="author" content="Arda Aykaç">
-<meta name="robots" content="index, follow">
-<!-- Favicon (tarayıcı sekmesi ve Google) -->
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
-<link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-<style>
-body, html {
-    font-family:'Arial', sans-serif;
-    background:#000;
-    color:#fff;
-    margin:0;
-    padding:0;
-    scroll-behavior:smooth;
-    line-height:1.6;
-}
+    <!-- SEO – Özel geliştirme vurgusuyla güncellendi -->
+    <title>Cravexi – Özel Yazılım Geliştirme | Oyun, Kripto, Web & Masaüstü</title>
+    <meta name="description" content="Cravexi: Özel yazılım geliştirme stüdyosu. Hazır çözüm veya paket ürün sunmuyoruz – sadece sizin projenize özel kod üretiyoruz. Oyun motorları, kripto uygulamaları, web ve masaüstü geliştirme.">
+    <meta name="author" content="Arda Aykaç">
+    <meta name="robots" content="index, follow, max-image-preview:large">
 
-/* Header */
-header {
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 40px;
-    background: rgba(0,0,0,0.8);
-    position:fixed;
-    width:100%;
-    top:0;
-    z-index:100;
-}
-header .logo {
-    font-size:28px;
-    font-weight:bold;
-    background: linear-gradient(45deg,#ff9900,#ffcc00);
-    background-clip:text;
-    -webkit-background-clip:text;
-    color:transparent;
-    -webkit-text-fill-color:transparent;
-    text-decoration:none;
-}
-nav a {
-    color:#fff;
-    text-decoration:none;
-    margin-left:25px;
-    font-weight:500;
-}
-nav a:hover { color:#ff9900; }
+    <link rel="canonical" href="https://cravexi.com/">
+    <link rel="alternate" hreflang="tr" href="https://cravexi.com/">
 
-/* Ana içerik */
-main {
-    padding:140px 20px 60px 20px; /* header boşluğu + alt boşluk */
-    max-width:900px;
-    margin:auto;
-}
-h2 {
-    font-size:36px;
-    margin-bottom:30px;
-    background: linear-gradient(45deg,#ff9900,#ffcc00);
-    background-clip:text;
-    -webkit-background-clip:text;
-    color:transparent;
-    -webkit-text-fill-color:transparent;
-    text-align:center;
-}
-p {
-    font-size:20px;
-    color:#ddd;
-    margin-bottom:20px;
-}
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 
-/* Ortaklar sol alt */
-#ortaklar {
-    position:fixed;
-    left:20px;
-    bottom:20px;
-    text-align:left;
-    font-size:18px;
-    color:#fff;
-    opacity:0.8;
-}
-#ortaklar strong { color:#ff9900; }
+    <meta property="og:title" content="Cravexi – Özel Yazılım Geliştirme">
+    <meta property="og:description" content="Hazır çözüm yok – sadece proje bazlı özel geliştirme. Oyun, kripto, web ve masaüstü projeleriniz için sıfırdan kod üretiyoruz.">
+    <meta property="og:image" content="https://cravexi.com/images/og-cravexi.jpg">
+    <meta property="og:url" content="https://cravexi.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="tr_TR">
 
-/* Responsive */
-@media(max-width:768px){
-header { flex-direction:column; padding:15px 20px; }
-nav { margin-top:10px; }
-nav a { margin:0 10px; }
-h2 { font-size:28px; }
-p { font-size:18px; }
-#ortaklar { font-size:16px; left:10px; bottom:10px; }
-}
-</style>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cravexi – Özel Yazılım Geliştirme">
+    <meta name="twitter:description" content="Proje bazlı özel kodlama. Hazır paket yok, sadece ihtiyacınıza göre geliştirme.">
+    <meta name="twitter:image" content="https://cravexi.com/images/og-cravexi.jpg">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Cravexi",
+      "url": "https://cravexi.com",
+      "logo": "https://cravexi.com/Cravexi.png",
+      "description": "Özel yazılım geliştirme stüdyosu. Hazır çözüm sunmuyoruz – sadece proje bazlı custom geliştirme yapıyoruz.",
+      "founder": {
+        "@type": "Person",
+        "name": "Arda Aykaç"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "İstanbul",
+        "addressCountry": "TR"
+      },
+      "sameAs": [
+        "https://www.youtube.com/channel/UCupwaV_Wf4s38E8RaaWue9w",
+        "https://www.instagram.com/cravexi"
+      ]
+    }
+    </script>
+
+    <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body, html { height:100%; font-family:'Arial', sans-serif; background-color:#000; color:#fff; scroll-behavior:smooth; }
+
+    header {
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:20px 5%;
+        background-color: rgba(0,0,0,0.85);
+        position:fixed;
+        width:100%;
+        top:0;
+        z-index:100;
+        backdrop-filter: blur(8px);
+    }
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .logo-img {
+        height: 42px;
+        width: auto;
+        margin-right: 12px;
+        transition: all 0.4s ease;
+        filter: drop-shadow(0 0 4px rgba(255,153,0,0.4));
+    }
+
+    .logo-container:hover .logo-img {
+        transform: scale(1.12) rotate(3deg);
+        filter: drop-shadow(0 0 12px #ff9900);
+    }
+
+    .logo-text {
+        font-size:1.8rem;
+        font-weight:bold;
+        background: linear-gradient(45deg, #ff9900, #ffcc00, #ff9900);
+        background-size: 200% 200%;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        transition: all 0.4s ease;
+    }
+
+    .logo-container:hover .logo-text {
+        transform: scale(1.08) translateY(-2px);
+        text-shadow: 0 0 10px #ff9900, 0 0 20px #ffcc00, 0 0 30px #ff9900;
+        animation: shine 1.5s ease-in-out infinite alternate, pulse 2s infinite;
+    }
+
+    @keyframes shine { 0% { background-position: 0% 50%; } 100% { background-position: 200% 50%; } }
+    @keyframes pulse { 0%,100% { transform: scale(1.08); } 50% { transform: scale(1.10); } }
+
+    nav { display:flex; gap:1.8rem; }
+    nav a { color:#fff; text-decoration:none; font-weight:500; font-size:1.05rem; transition:color 0.3s; }
+    nav a:hover { color:#ff9900; }
+
+    .hero {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        min-height:100vh;
+        padding:120px 5% 60px;
+        background: linear-gradient(120deg, #111, #000);
+    }
+
+    .hero h1 {
+        font-size:3.5rem;
+        background: linear-gradient(45deg,#ff9900,#ffcc00);
+        background-clip:text;
+        -webkit-background-clip:text;
+        color:transparent;
+        margin-bottom:1.2rem;
+    }
+
+    .hero .subtitle {
+        font-size:1.5rem;
+        margin-bottom:0.8rem;
+        opacity:0.9;
+        max-width:800px;
+    }
+
+    .hero .description {
+        font-size:1.2rem;
+        margin-bottom:2.5rem;
+        opacity:0.85;
+        max-width:720px;
+        line-height:1.6;
+    }
+
+    .hero .cta {
+        padding:0.9rem 2.2rem;
+        background: linear-gradient(45deg,#ff9900,#ffcc00);
+        color:#000;
+        font-weight:bold;
+        text-decoration:none;
+        border-radius:50px;
+        font-size:1.2rem;
+        transition: all 0.3s;
+    }
+
+    .hero .cta:hover {
+        transform:scale(1.06);
+        box-shadow:0 0 25px rgba(255,153,0,0.6);
+    }
+
+    #ortaklar {
+        padding:100px 5%;
+        text-align:center;
+        background:#111;
+    }
+
+    #ortaklar h2 {
+        font-size:2.8rem;
+        margin-bottom:3rem;
+        background: linear-gradient(45deg,#ff9900,#ffcc00);
+        background-clip:text;
+        -webkit-background-clip:text;
+        color:transparent;
+    }
+
+    .ortak-list {
+        display:flex;
+        flex-direction:column;
+        gap:1.5rem;
+        font-size:1.4rem;
+        max-width:600px;
+        margin:0 auto;
+    }
+
+    footer {
+        background:#111;
+        padding:80px 5% 50px;
+        text-align:center;
+        border-top:1px solid #222;
+    }
+
+    footer h2 {
+        font-size:2.2rem;
+        margin-bottom:2rem;
+        background: linear-gradient(45deg,#ff9900,#ffcc00);
+        -webkit-background-clip:text;
+        background-clip:text;
+        color:transparent;
+    }
+
+    .social-links a {
+        color:#ff9900;
+        font-size:2.2rem;
+        margin:0 1.2rem;
+        text-decoration:none;
+        transition:all 0.3s;
+    }
+
+    .social-links a:hover { transform:scale(1.2); }
+
+    .footer-links {
+        margin:2.5rem 0;
+        font-size:1.1rem;
+    }
+
+    .footer-links a {
+        color:#ccc;
+        margin:0 1rem;
+        text-decoration:none;
+    }
+
+    .footer-links a:hover { color:#ff9900; }
+
+    footer p, footer .note {
+        font-size:0.95rem;
+        opacity:0.7;
+        margin-top:1.5rem;
+    }
+
+    footer .note {
+        font-style: italic;
+        margin-top:2rem;
+        border-top: 1px solid #333;
+        padding-top: 1rem;
+    }
+
+    /* Mobil Uyum */
+    @media (max-width: 900px) {
+        header { flex-direction:column; padding:15px 5%; gap:15px; }
+        nav { flex-wrap:wrap; justify-content:center; gap:1rem; }
+        nav a { font-size:1rem; }
+        .hero { padding:100px 5% 40px; min-height:80vh; }
+        .hero h1 { font-size:2.6rem; }
+        .hero .subtitle { font-size:1.3rem; }
+        .hero .description { font-size:1.1rem; }
+        #ortaklar { padding:80px 5%; }
+        #ortaklar h2 { font-size:2.2rem; }
+        footer { padding:60px 5% 40px; }
+        .social-links a { font-size:2rem; margin:0 1rem; }
+    }
+
+    @media (max-width: 600px) {
+        .logo-img { height: 36px; }
+        .logo-text { font-size:1.6rem; }
+        .hero h1 { font-size:2.2rem; }
+        .hero .subtitle { font-size:1.15rem; }
+        .footer-links a { display:block; margin:0.8rem 0; }
+    }
+    </style>
 </head>
 <body>
-
 <header>
-<!-- Cravexi yazısı tıklandığında ana sayfaya yönlendirir -->
-<a class="logo" href="index.html">Cravexi</a>
-
-<nav>
-</nav>
+    <a href="/" class="logo-container">
+        <img src="Cravexi.png" alt="Cravexi Logo" class="logo-img">
+        <span class="logo-text">Cravexi</span>
+    </a>
+    <nav>
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="hizmetler.html">Hizmetler</a>
+        <a href="uygulama.html">Uygulama</a>
+        <a href="iletisim.html">İletişim</a>
+    </nav>
 </header>
 
-<main>
-<h2>Hakkımızda</h2>
-<p>Küçük Cravexi, 14 Aralık 2024 tarihinde Arda Aykaç tarafından kurulan bir yazılım geliştirme stüdyosudur.</p>
-<p>Oyun geliştirme, kripto uygulamaları, web ve masaüstü çözümleri üzerine uzmanlaşmış ekibimiz, tüm projelerini Creative Commons Lisansı altında Github üzerinden paylaşmaktadır.</p>
-<p>Crafted By Code, Powered By Community.</p>
-<p>Amacımız, projelerimizi temiz, anlaşılır ve topluluk ile paylaşılabilir hale getirmektir.</p>
-</main>
+<section class="hero">
+    <h1>Cravexi</h1>
+    <p class="subtitle">Crafted By Code, Powered By Community</p>
+    <p class="description">
+        SoftWare&Oyun geliştirme.<br>
+    </p>
+    <a href="hakkimizda.html" class="cta">Hakkımızda'yı Keşfedin</a>
+</section>
 
-<div id="ortaklar">
-<p><strong>Kurucu:</strong> Arda Aykaç</p>
-<p><strong>Ortak:</strong> Görkem İbiş</p>
-</div>
+<section id="ortaklar">
+    <h2>Ortaklarımız</h2>
+    <div class="ortak-list">
+        <div>Kurucu: Arda Aykaç</div>
+        <div>Ortak: Görkem İbiş</div>
+    </div>
+</section>
+
+<footer>
+    <div class="social-links">
+        <a href="https://www.youtube.com/channel/UCupwaV_Wf4s38E8RaaWue9w" target="_blank">YouTube</a>
+        <a href="https://www.instagram.com/cravexi" target="_blank">Instagram</a>
+    </div>
+
+    <div class="footer-links">
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="hizmetler.html">Hizmetler</a>
+        <a href="uygulama.html">Uygulamalar</a>
+        <a href="iletisim.html">İletişim</a>
+    </div>
+
+    <p>© 2024–2026 Cravexi. Tüm hakları saklıdır.<br>Crafted By Code, Powered By Community | Kurucu: Arda Aykaç</p>
+    
+    <div class="note">
+        Uygulamalarımızı Ve oyunlarımızı Ücretsiz indirin ve Teknolojinin eşsiz güzelliğinden faydalanın.
+    </div>
+</footer>
 
 </body>
-
 </html>
-
-
