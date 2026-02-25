@@ -1,79 +1,188 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Güncellenmiş & Geliştirilmiş SEO Meta Tags -->
+    <title>Cravexi | Yazılım Geliştirme, Dijital Çözümler & Uygulama Tasarımı</title>
+    <meta name="description" content="Cravexi – Kod ile yaratıldı, topluluk ile güçlendirildi. Profesyonel yazılım geliştirme, web & masaüstü uygulama, oyun geliştirme, kripto projeleri ve dijital çözümler. Arda Aykaç tarafından kuruldu.">
+    <meta name="keywords" content="Cravexi, cravexi, yazılım geliştirme, dijital çözümler, uygulama geliştirme, oyun geliştirme, web geliştirme, masaüstü uygulama, kripto yazılım, İstanbul yazılım şirketi">
+    <meta name="author" content="Arda Aykaç">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Türkçe için hreflang -->
+    <link rel="alternate" hreflang="tr" href="https://www.cravexi.com/">
+    <!-- Domainin ne olacaksa onu yaz (örnek: cravexi.com) -->
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.cravexi.com/">
+    
+    <!-- Favicon (mevcut hali korundu) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    
+    <!-- Open Graph (sosyal medya paylaşımları için – Facebook, Instagram, LinkedIn, WhatsApp vs.) -->
+    <meta property="og:title" content="Cravexi - Crafted By Code, Powered By Community">
+    <meta property="og:description" content="Kodla oluşturulan, toplulukla büyüyen yazılım ve dijital çözüm platformu. Hizmetlerimiz, uygulamalarımız ve projelerimiz hakkında bilgi alın.">
+    <meta property="og:image" content="https://www.cravexi.com/images/og-cravexi.jpg">
+    <meta property="og:url" content="https://www.cravexi.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="tr_TR">
+    <meta property="og:site_name" content="Cravexi">
+    
+    <!-- Twitter / X Cards (özellikle X'te güzel görünmesi için) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cravexi - Yazılım & Dijital Çözümler">
+    <meta name="twitter:description" content="Cravexi ile dijital dünyada fark yaratın. Kod + Topluluk = Gelecek">
+    <meta name="twitter:image" content="https://www.cravexi.com/images/og-cravexi.jpg">
+    <!-- twitter:creator ve twitter:site varsa ekleyebilirsin -->
+    
+    <!-- Schema.org / Structured Data (Google rich results için) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Cravexi",
+      "url": "https://www.cravexi.com",
+      "logo": "https://www.cravexi.com/images/favicon.png",
+      "description": "Kod ile oluşturulan, topluluk odaklı yazılım geliştirme ve dijital çözüm şirketi.",
+      "founder": {
+        "@type": "Person",
+        "name": "Arda Aykaç"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "İstanbul",
+        "addressCountry": "TR"
+      },
+      "sameAs": [
+        "https://x.com/cravexi",
+        "https://linkedin.com/company/cravexi",
+        "https://instagram.com/cravexi"
+      ]
+    }
+    </script>
 
-<title>Cravexi | Dijital Çözümler ve Yazılım</title>
-
-<meta name="description" content="Cravexi ile dijital dünyada öne çıkın. Yazılım, oyun geliştirme, web ve masaüstü çözümleri. Hakkımızda, hizmetlerimiz ve uygulamalarımızı keşfedin.">
-
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://cravexi.com/">
-
-<!-- Open Graph -->
-<meta property="og:title" content="Cravexi | Dijital Çözümler">
-<meta property="og:description" content="Yazılım, web ve dijital çözümler. Cravexi ile projelerinizi büyütün.">
-<meta property="og:url" content="https://cravexi.com/">
-<meta property="og:type" content="website">
-<meta property="og:image" content="https://cravexi.com/images/favicon.png">
-
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Cravexi | Dijital Çözümler">
-<meta name="twitter:description" content="Yazılım ve dijital projeler için Cravexi.">
-<meta name="twitter:image" content="https://cravexi.com/images/favicon.png">
-
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
-
-<!-- Organization Schema -->
-<script type="application/ld+json">
-{
- "@context": "https://schema.org",
- "@type": "Organization",
- "name": "Cravexi",
- "url": "https://cravexi.com",
- "logo": "https://cravexi.com/images/favicon.png",
- "sameAs": [
-   "https://instagram.com/cravexi",
-   "https://github.com/cravexi"
- ]
-}
-</script>
-
-<!-- Site Navigation Schema -->
-<script type="application/ld+json">
-{
- "@context": "https://schema.org",
- "@type": "WebSite",
- "name": "Cravexi",
- "url": "https://cravexi.com"
-}
-</script>
-
-<style>
-/* CSS'in aynı kalabilir */
-</style>
+    <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body, html { height:100%; font-family:'Arial', sans-serif; background-color:#000; color:#fff; scroll-behavior:smooth; }
+    /* Header */
+    header {
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:20px 40px;
+        background-color: rgba(0,0,0,0.8);
+        position:fixed;
+        width:100%;
+        top:0;
+        z-index:100;
+    }
+    .logo {
+        font-size:28px;
+        font-weight:bold;
+        background: linear-gradient(45deg, #ff9900, #ffcc00);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+    nav a {
+        color:#fff;
+        text-decoration:none;
+        margin-left:30px;
+        font-weight:500;
+        transition:color 0.3s;
+    }
+    nav a:hover { color:#ff9900; }
+    /* Hero */
+    .hero {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        height:100vh;
+        background: linear-gradient(120deg,#111,#000);
+        padding-top:80px;
+    }
+    .hero h1 {
+        font-size:48px;
+        background: linear-gradient(45deg,#ff9900,#ffcc00);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+        margin-bottom:20px;
+    }
+    .hero p {
+        font-size:24px;
+        margin-bottom:40px;
+        opacity:0.85;
+    }
+    .hero a.cta {
+        padding:15px 30px;
+        background: linear-gradient(45deg,#ff9900,#ffcc00);
+        color:#000;
+        font-weight:bold;
+        text-decoration:none;
+        border-radius:30px;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .hero a.cta:hover {
+        transform:scale(1.05);
+        box-shadow:0 0 15px #ff9900;
+    }
+    /* Ortaklar */
+    #ortaklar {
+        padding:80px 20px;
+        text-align:center;
+        background-color:#111;
+    }
+    #ortaklar h2 {
+        font-size:36px;
+        margin-bottom:50px;
+        background: linear-gradient(45deg,#ff9900,#ffcc00);
+        background-clip:text;
+        -webkit-background-clip:text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+    #ortaklar .ortak-list {
+        display:flex;
+        flex-direction:column;
+        gap:20px;
+        font-size:20px;
+    }
+    /* Responsive */
+    @media(max-width:768px){
+        header { flex-direction:column; padding:15px 20px; }
+        nav { margin-top:10px; }
+        nav a { margin:0 10px; }
+        .hero h1 { font-size:32px; }
+        .hero p { font-size:18px; }
+        .hero a.cta { padding:12px 25px; }
+        #ortaklar h2 { font-size:28px; }
+        #ortaklar .ortak-list { font-size:18px; }
+    }
+    </style>
 </head>
-
 <body>
-
 <header>
 <div class="logo">Cravexi</div>
 <nav>
-<a href="https://cravexi.com/hakkimizda.html">Hakkımızda</a>
-<a href="https://cravexi.com/hizmetler.html">Hizmetler</a>
-<a href="https://cravexi.com/uygulama.html">Uygulamalar</a>
-<a href="https://cravexi.com/iletisim.html">İletişim</a>
+<a href="hakkimizda.html">Hakkımızda</a>
+<a href="hizmetler.html">Hizmetler</a>
+<a href="uygulama.html">Uygulama</a>
+<a href="iletisim.html">İletişim</a>
 </nav>
 </header>
-
 <section class="hero">
-<h1>Cravexi - Dijital Çözümler</h1>
+<h1>Cravexi</h1>
 <p>Crafted By Code, Powered By Community</p>
-<a href="https://cravexi.com/hakkimizda.html" class="cta">Hakkımızda'yı Keşfedin</a>
+<a href="hakkimizda.html" class="cta">Hakkımızda'yı Keşfedin</a>
 </section>
-
 <section id="ortaklar">
 <h2>Ortaklarımız</h2>
 <div class="ortak-list">
@@ -81,10 +190,5 @@
 <div>Ortak: Görkem İbiş</div>
 </div>
 </section>
-
-<footer style="text-align:center;padding:40px;background:#000;">
-<p>© 2026 Cravexi - Tüm Hakları Saklıdır.</p>
-</footer>
-
 </body>
 </html>
